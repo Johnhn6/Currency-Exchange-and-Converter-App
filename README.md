@@ -22,7 +22,7 @@ I believe my application will be useful in calculating any conversions you need 
 One minor note to acknowledge would be the the exchange rate updates. When I tested the calculations, the amount is almost the same as other sites with only a few numbers or percent off. The reason is that the free API key will not have exchange rates minute by minute. So this would mean that the rates will be slightly off, but it will show you the overall rate of that day. Higher subscription will allow for minute by minute updates, which I believe my program will be able to do. The calculation from one currency to another is by multiplying the currency by the exchange rate to get the new currency. An example would be: USD * exchange rate to JPY = JPY.
 
 # Potential Future Updates
-- Creation of a front end application in either android studios or using javascript and html.
+- Creation of a front end application using Django or Flask.
 - Exception raised if you go beyond your limit. I did not make one as I did not go beyond the monthly limit
 - Being able to use dates in other formats.
 

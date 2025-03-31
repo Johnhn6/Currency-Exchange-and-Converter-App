@@ -59,6 +59,7 @@ while True:
     #Unless your API is not set or is cleared, you should end up here.
     print("Here is a list of commands you can do. Please type in the word for the command you would like.")
     print("For any input needed, except for this input, you can type Back to exit back to the list of commands.")
+    print("You do not need to worry about capitalization.")
     print("For information of each command, please type: Command Information")
     print()
 
@@ -107,10 +108,14 @@ while True:
 
                 print("Please select amount.")
                 amount = input()
+                #must check if it is string "back" as it will cause an exception from float(amount) and it will not go back to command list due
+                #to the try and except clause which catches all exceptions. I would prefer to do specific exceptions
+                #but the exception raised is everapi.NotAllowed() which is a unique exception from the api applications
+                exitBack = amount.upper()
+                if exitingBreak(exitBack):
+                    break
                 amount = float(amount)
                 print()
-                if exitingBreak(amount):
-                    break
             
                 print("Please select currency to exchange to.")
                 newCurrency = input()
@@ -177,7 +182,7 @@ while True:
                 print("Please select date. Must be in year-month-day. Example: 2025-01-01.")
                 date = input()
                 dateFinish = date.upper()
-                if exitingBreak(baseCurrency):
+                if exitingBreak(dateFinish):
                     break
                 dataset = running.historicalExchangeRate(date, currency)
                 while True:

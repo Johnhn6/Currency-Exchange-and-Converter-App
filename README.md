@@ -3,7 +3,7 @@ Using currencyapi.com's api, the application is able to show the lastest exchang
 
 
 # How to Use
-To use the program, please make sure to have python and to pip install currencyapicom. If you do not have python then please install python first. If you do not have pip install, then go to your command line by typing cmd in the file search bar, then type python -m pip install. Then write pip install currencyapicom. After that, go to currencyapi.com and get a free API key. Then you can run Main.py, where it will ask you for the API key. If you are going to use the testing file. Then you must set your API key to the variable apiKey.
+To use the program, please make sure to have python and to pip install currencyapicom. If you do not have python then please install python first. If you do not have pip install, then go to your command line by typing cmd in the file search bar, then type python -m pip install. Then write pip install currencyapicom. After that, go to currencyapi.com and get a free API key. Then you can run Main.py, where it will ask you for the API key. If you are going to use the testing file, then you must set your API key to the apiKey variable.
 
 
 # Overview of Programs and Uses

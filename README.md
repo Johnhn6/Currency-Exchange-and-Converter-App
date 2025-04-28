@@ -6,7 +6,7 @@ Using currencyapi.com's api, the application is able to show the lastest exchang
 To use the program, please make sure to have python and to pip install currencyapicom. If you do not have python then please install python first. If you do not have pip install, then go to your command line by typing cmd in the file search bar, then type python -m pip install. Then write pip install currencyapicom. After that, go to currencyapi.com and get a free API key. Then you can run Main.py, where it will ask you for the API key. If you are going to use the testing file, then you must set your API key to the apiKey variable.
 
 
-# Overview of Programs and Uses
+# Overview of Programs, Reflection, and Uses
 There are 2 files for the program and a testing file. The program is in Main.py and CurrencyExchange.py, and the testing file is TestingCurrencyExchange.py. I utilized the API from currencyapi.com, and I hoped it showcased good use of understanding documentaion, using outside libraries, understand how
 APIs work, and the use of object oriented programming in order to manipulate data within objects and data structures in order to perform the necessary functions of the application.
 
